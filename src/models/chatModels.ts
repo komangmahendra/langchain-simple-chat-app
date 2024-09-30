@@ -12,7 +12,7 @@ import { AgentExecutor, createOpenAIFunctionsAgent } from "langchain/agents";
 import { embeddingModels } from "../config/openAI";
 
 // utils
-import { getQuotaByDate } from "../../utils/getQuotaByDate";
+import { getQuotaByDate } from "../utils/getQuotaByDate";
 
 class Chat {
   async postChat(queryText: string) {
