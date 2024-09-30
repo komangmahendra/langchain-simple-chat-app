@@ -20,7 +20,7 @@ The context used in this app consists of 3 authored movie synopses.
 
 In terms of creating context in the form of a vector database, it is assisted by using openAI with the `text-embedding-3-small` model to convert text into vectors, then stored in the Pinecone vector database.
 
-To use a more dynamic LLM, this repo uses an agent that will determine which tools will be used according to the context obtained from the user. For example, when we need information about movie theater quotas, the LLM will determine which function is most suitable for obtaining this information in this case, the `getQuotaByDate` function will be executed, then the output results will be beautified by the LLM to be displayed to the user side.
+To use a more dynamic LLM, this repo uses an agent that will determine which tools will be used according to the context obtained from the user. For example, when we need information about movie theater quotas, the agent executor will determine which function is most suitable for obtaining this information in this case, the `getQuotaByDate` function will be executed, then the output results will be beautified by the LLM to be displayed to the user side.
 
 For now the thing that is made can answer according to the existing context, but still needs improvement to be even better in terms of answering the context of the user.
 
