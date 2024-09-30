@@ -9,6 +9,10 @@ npm run dev
 open http://localhost:3000
 ```
 
+### Course certificate
+
+[Learn LangChain by building FAST a real world generative ai LLM powered application LLM (Python, Latest Version 0.3.0)](https://www.udemy.com/certificate/UC-0812d383-a677-4bc2-a794-5baaea7ca539/)
+
 ### A quick summary of what was created in this repo
 
 This repo is about using the langchain framework to create a simple chat app to ask questions about movies and ask for a quota to watch in theaters.
