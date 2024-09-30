@@ -30,6 +30,8 @@ For now the thing that is made can answer according to the existing context, but
 
 ### Example
 
+You can find synopses text each movie in folder `src/sources` to confirm the information
+
 ```
 # ask about quota
 # endpoint : http://localhost:3000/chat
